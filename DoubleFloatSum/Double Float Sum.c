@@ -6,11 +6,11 @@
 
 int main()
 {
-	char num1 = 0;
-	char num2 = 0;
-	scanf("%s%s", &num1, &num2);
-	char sum = 0;
+	double num1 = 0;
+	double num2 = 0;
+	scanf("%lf%lf", &num1, &num2);
+	double sum = 0;
 	sum = num1 + num2;
-	printf("sum=%s", sum);
+	printf("sum=%lf", sum);
 	return 0;
 }

@@ -1,3 +1,1 @@
-﻿  Double Float Sum.c
-D:\ImportanFiles\Coding Related\My codes\Double Float Sum\Double Float Sum.c(14,9): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int”
-  Double Float Sum.vcxproj -> D:\ImportanFiles\Coding Related\My codes\Double Float Sum\Debug\Double Float Sum.exe
+﻿  Double Float Sum.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Random codes in c\DoubleFloatSum\Debug\Double Float Sum.exe
