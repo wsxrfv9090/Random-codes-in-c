@@ -1,14 +1,21 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+
+
+
 int main()
 {
-	printf("Please type each expense here with an Enter, I'll culculate the sum of it for you!\n");
-	double num1 = 0;
-	double num2 = 0;
-	double num3 = 0;
-	double num4 = 0;
-	double num5 = 0;
-	scanf
-
+	printf("Type your expenses here, I'll culculate the sum of them for you.\n")
+	double arr[30] = { 0 };
+	double sum = 0;
+	for (int i = 0; i <= 30; i++)
+	{
+		scanf("%lf", &arr[i]);
+		if (arr[i] == 0)
+			break;
+		sum += arr[i];
+	}
+	printf("sum = %lf", sum);
+	return 0;
 }
