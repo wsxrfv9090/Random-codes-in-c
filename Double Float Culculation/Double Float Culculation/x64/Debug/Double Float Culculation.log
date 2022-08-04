@@ -1,4 +1,5 @@
-﻿  Display.c
-D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Double Float Culculation\Double Float Culculation\Display.c(13,23): warning C4474: scanf_s: 格式字符串中传递的参数太多
-D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Double Float Culculation\Double Float Culculation\Display.c(13,23): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+﻿  Main.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Double Float Culculation\Double Float Culculation\Main.c(14,12): warning C4477: “scanf_s”: 格式字符串“%lf”需要类型“double *”的参数，但可变参数 1 拥有了类型“double”
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Double Float Culculation\Double Float Culculation\Main.c(14,27): warning C4474: scanf_s: 格式字符串中传递的参数太多
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Double Float Culculation\Double Float Culculation\Main.c(14,27): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
   Double Float Culculation.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Double Float Culculation\x64\Debug\Double Float Culculation.exe
