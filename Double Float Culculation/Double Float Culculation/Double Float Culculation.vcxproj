@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Display.c" />
     <ClCompile Include="DoubleFADD.c" />
     <ClCompile Include="DoubleFDIV.c" />
     <ClCompile Include="DoubleFMUL.c" />
@@ -134,6 +135,7 @@
     <ClCompile Include="Main.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Display.h" />
     <ClInclude Include="DoubleFADD.h" />
     <ClInclude Include="DoubleFDIV.h" />
     <ClInclude Include="DoubleFMUL.h" />

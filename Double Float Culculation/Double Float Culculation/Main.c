@@ -1,15 +1,23 @@
 #include <stdio.h>
+#include "Display.h"
 
 int main()
 {
-	char BUFFER[100] = { 0 };
-	
-	for (int i = 0; i <= 3; i++)
+	int tmp1 = Menu();
+	switch (tmp1) :
 	{
-		 x = 0;
-		scanf_s("%d", &x, 1);
-		BUFFER[i] = x;
+	case 1:
+		double arr[1000] = { 0 };
+		int i = 0;
+		while(i<=1000)
+		{
+			scanf_s("%lf",arr[i], 1);
+			double tmp2 = Add(arr,);
+		}
+
+	case 2:
+	case 3:
+	case 4:
 	}
-	printf("BUFFER = %s", BUFFER, 100);
 	return 0;
 }
