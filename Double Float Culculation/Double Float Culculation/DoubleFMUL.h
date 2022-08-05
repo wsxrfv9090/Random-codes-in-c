@@ -1,0 +1,1 @@
+double Mul(double ar[], int x);

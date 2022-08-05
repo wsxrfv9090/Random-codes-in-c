@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int Menu()
 {
 	printf("Welcome to Davy's culculator!!!\n");
@@ -7,6 +8,7 @@ int Menu()
 	printf("         2.Subtraction\n");
 	printf("         3.Multiplication\n");
 	printf("         4.Divition\n\n");
+	printf("Type your answer here: ");
 	int ans = 0;
 	while (1)
 	{
@@ -18,5 +20,35 @@ int Menu()
 	}
 	return ans;
 }
+
+void DisplayResult(double x)
+{
+	printf("The result is %lf", x);
+}
+
+int More()
+{
+	int tmp = 0;
+	while (1)
+	{
+		printf("Would you like futher culculation?\n");
+		printf("         1.Yes,Addition!\n");
+		printf("         2.Yes,Subtraction!\n");
+		printf("         3.Yes,Multiplication!\n");
+		printf("         4.Yes,Division!\n");
+		printf("         5.No,the result is good enough!\n\n");
+		printf("Type your answer here: ");
+		scanf_s("%d", &tmp, 1);
+		if (tmp == 5)
+			break;
+		else if (tmp != 1 && tmp != 2 && tmp != 3 && tmp != 4)
+			printf("Incorrect input,please try again.");
+		else
+			break;
+	}
+	return tmp;
+}
+
+
 
 

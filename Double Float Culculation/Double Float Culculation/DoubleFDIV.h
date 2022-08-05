@@ -1,0 +1,1 @@
+double Div(double ar[], int x);
