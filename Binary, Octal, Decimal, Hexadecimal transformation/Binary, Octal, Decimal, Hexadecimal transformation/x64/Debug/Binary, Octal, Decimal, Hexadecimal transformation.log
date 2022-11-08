@@ -1,5 +1,5 @@
-﻿  Source.c
-D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Binary, Octal, Decimal, Hexadecimal transformation\Binary, Octal, Decimal, Hexadecimal transformation\Source.c(12,3): warning C4013: “printf”未定义；假设外部返回 int
-D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Binary, Octal, Decimal, Hexadecimal transformation\Binary, Octal, Decimal, Hexadecimal transformation\Source.c(14,3): warning C4013: “scanf_s”未定义；假设外部返回 int
-D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Binary, Octal, Decimal, Hexadecimal transformation\Binary, Octal, Decimal, Hexadecimal transformation\Source.c(22,18): error C2065: “inputarr”: 未声明的标识符
-D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Binary, Octal, Decimal, Hexadecimal transformation\Binary, Octal, Decimal, Hexadecimal transformation\Source.c(22,20): error C2109: 下标要求数组或指针类型
+﻿  Display.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Binary, Octal, Decimal, Hexadecimal transformation\Binary, Octal, Decimal, Hexadecimal transformation\Display.c(20,34): warning C4474: scanf_s: 格式字符串中传递的参数太多
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Binary, Octal, Decimal, Hexadecimal transformation\Binary, Octal, Decimal, Hexadecimal transformation\Display.c(20,34): message : 占位符和其参数预计 2 可变参数，但提供的却是 4 参数
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Binary, Octal, Decimal, Hexadecimal transformation\Binary, Octal, Decimal, Hexadecimal transformation\Display.c(101): warning C4715: “Menu”: 不是所有的控件路径都返回值
+  Binary, Octal, Decimal, Hexadecimal transformation.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Binary, Octal, Decimal, Hexadecimal transformation\x64\Debug\Notation Transformation.exe

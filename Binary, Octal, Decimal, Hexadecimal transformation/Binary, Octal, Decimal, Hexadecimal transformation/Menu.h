@@ -1,1 +1,2 @@
 int Menu();
+int BinaryToDecimal();

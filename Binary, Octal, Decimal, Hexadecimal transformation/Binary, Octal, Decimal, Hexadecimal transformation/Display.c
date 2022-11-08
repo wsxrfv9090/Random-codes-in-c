@@ -21,60 +21,76 @@ int Menu()
 		switch (ans1)
 		{
 		case 1:
-			if (ans2 == 1)
+			switch (ans2)
+			{
+			case 1:
 			{
 				system("cls");
 				printf("Not an option, please try again!\n\n");
 				continue;
 			}
-			if (ans2 = 2)
+			case 2:
 				return 12;
-			if (ans2 = 3)
+			case 3:
 				return 13;
-			if (ans2 = 4)
+			case 4:
 				return 14;
+			}
 			break;
 		case 2:
-			if (ans2 == 2)
+			switch (ans2)
+			{
+			case 1:
+				return 21;
+			case 2:
 			{
 				system("cls");
 				printf("Not an option, please try again!\n\n");
 				continue;
 			}
-			if (ans2 = 1)
-				return 21;
-			if (ans2 = 3)
+			case 3:
 				return 23;
-			if (ans2 = 4)
+			case 4:
 				return 24;
+			}
 			break;
 		case 3:
-			if (ans2 == 3)
+			switch (ans2)
+			{
+			case 1:
+				return 31;
+			case 2:
+				return 32;
+			case 3:
 			{
 				system("cls");
 				printf("Not an option, please try again!\n\n");
 				continue;
 			}
-			if (ans2 = 1)
-				return 31;
-			if (ans2 = 2)
-				return 32;
-			if (ans2 = 4)
+			case 4:
 				return 34;
+			}
 			break;
 		case 4:
-			if (ans2 == 4)
+			switch (ans2)
+			{
+				if (ans2 == 4)
+				{
+				
+				}
+			case 1:
+				return 41;
+			case 2:
+				return 42;
+			case 3:
+				return 43;
+			case 4:
 			{
 				system("cls");
 				printf("Not an option, please try again!\n\n");
 				continue;
 			}
-			if (ans2 = 1)
-				return 41;
-			if (ans2 = 2)
-				return 42;
-			if (ans2 = 3)
-				return 43;
+			}
 			break;
 		default:
 			system("cls");
