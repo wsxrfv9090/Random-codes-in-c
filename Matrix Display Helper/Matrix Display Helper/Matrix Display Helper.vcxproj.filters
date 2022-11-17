@@ -45,6 +45,33 @@
     <ClCompile Include="4x3.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="2x2aug.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2x3aug.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2x4aug.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3x2aug.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3x3aug.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3x4aug.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4x2aug.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4x3aug.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4x4aug.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Culculations.h">

@@ -128,14 +128,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="2x2.c" />
+    <ClCompile Include="2x2aug.c" />
     <ClCompile Include="2x3.c" />
+    <ClCompile Include="2x3aug.c" />
     <ClCompile Include="2x4.c" />
+    <ClCompile Include="2x4aug.c" />
     <ClCompile Include="3x2.c" />
+    <ClCompile Include="3x2aug.c" />
     <ClCompile Include="3x3.c" />
+    <ClCompile Include="3x3aug.c" />
     <ClCompile Include="3x4.c" />
+    <ClCompile Include="3x4aug.c" />
     <ClCompile Include="4x2.c" />
+    <ClCompile Include="4x2aug.c" />
     <ClCompile Include="4x3.c" />
+    <ClCompile Include="4x3aug.c" />
     <ClCompile Include="4x4.c" />
+    <ClCompile Include="4x4aug.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>
   <ItemGroup>
