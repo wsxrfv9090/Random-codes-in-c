@@ -1,0 +1,6 @@
+﻿  2x2.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Elimination\Matrix Elimination\2x2.c(10,31): warning C4474: scanf_s: 格式字符串中传递的参数太多
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Elimination\Matrix Elimination\2x2.c(10,31): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+  4x4aug.c
+  正在生成代码...
+  Matrix Elimination.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Elimination\x64\Debug\Matrix Elimination.exe

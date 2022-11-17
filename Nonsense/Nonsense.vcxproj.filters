@@ -15,19 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Nonsense.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="tests.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="test2.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Real Shit.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="test3.c">
+    <ClCompile Include="test.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

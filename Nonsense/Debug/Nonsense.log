@@ -1,2 +1,4 @@
-﻿  Real Shit.c
-  Nonsense.vcxproj -> D:\My codes\Nonsense\Debug\Nonsense.exe
+﻿  test.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Nonsense\test.c(6,13): warning C4047: “==”:“int [3]”与“int”的间接级别不同
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Nonsense\test.c(6,9): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+  Nonsense.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Nonsense\Debug\Nonsense.exe

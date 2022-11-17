@@ -1,0 +1,34 @@
+﻿  2x2.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\2x2.c(10,31): warning C4474: scanf_s: 格式字符串中传递的参数太多
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\2x2.c(10,31): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+  2x3.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\2x3.c(10,31): warning C4474: scanf_s: 格式字符串中传递的参数太多
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\2x3.c(10,31): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+  2x4.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\2x4.c(10,31): warning C4474: scanf_s: 格式字符串中传递的参数太多
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\2x4.c(10,31): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+  3x2.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\3x2.c(10,31): warning C4474: scanf_s: 格式字符串中传递的参数太多
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\3x2.c(10,31): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+  3x3.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\3x3.c(10,31): warning C4474: scanf_s: 格式字符串中传递的参数太多
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\3x3.c(10,31): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+  3x4.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\3x4.c(10,31): warning C4474: scanf_s: 格式字符串中传递的参数太多
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\3x4.c(10,31): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+  4x2.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\4x2.c(10,31): warning C4474: scanf_s: 格式字符串中传递的参数太多
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\4x2.c(10,31): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+  4x3.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\4x3.c(10,31): warning C4474: scanf_s: 格式字符串中传递的参数太多
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\4x3.c(10,31): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+  4x4.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\4x4.c(10,31): warning C4474: scanf_s: 格式字符串中传递的参数太多
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\4x4.c(10,31): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+  main.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\main.c(10,25): warning C4474: scanf_s: 格式字符串中传递的参数太多
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\main.c(10,25): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\main.c(11,25): warning C4474: scanf_s: 格式字符串中传递的参数太多
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\Matrix Display Helper\main.c(11,25): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+  正在生成代码...
+  Matrix Display Helper.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Matrix Display Helper\x64\Debug\Matrix Display Helper.exe
