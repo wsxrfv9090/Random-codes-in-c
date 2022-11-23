@@ -19,10 +19,18 @@ void twobytwo()
 			arr[1][i] = tmp;
 		}
 		if (arr[0][0] == 0)
-		{
-			printf("it does not have pivot on its first column, hense unsolvable.");
-			goto end;
-		}
+			printf("error: it does not have pivot on its first column\n");
+	}
+	else if (arr[0][1] == 0 && arr[1][1] == 0)
+			printf("error: it does not have pivot on its second column\n");
+	else if (arr[0][0] / arr[1][0] == arr[0][1] / arr[1][1])
+		printf("error: it's two same direction, hence two of them are convenience variable.\n");
+	else
+	{
+		arr[0][1] = arr[0][1] / arr[0][0];
+		arr[0][0] = 1;
+		arr[1][1] = arr[1][1] - arr[0][1] * arr[1][0];
+		arr[1][0] = 0;
 	}
 	for (int i = 0; i < 2; i++)
 	{

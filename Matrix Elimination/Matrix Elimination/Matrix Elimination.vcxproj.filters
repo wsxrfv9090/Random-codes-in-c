@@ -48,6 +48,9 @@
     <ClCompile Include="4x4aug.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="2x2aug.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Culculations.h">

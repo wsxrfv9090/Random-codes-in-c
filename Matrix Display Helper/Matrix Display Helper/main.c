@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <Windows.h>
 #include "Culculations.h"
 
 
@@ -83,6 +84,7 @@ int main()
 			printf("input wrong, please try again.");
 	}
 
+	Sleep("1000000");
 	return 0;
 
 }
