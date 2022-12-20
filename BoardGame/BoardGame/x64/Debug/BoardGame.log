@@ -1,0 +1,4 @@
+﻿  game.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\BoardGame\BoardGame\game.c(41,28): warning C4474: scanf_s: 格式字符串中传递的参数太多
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\BoardGame\BoardGame\game.c(41,28): message : 占位符和其参数预计 2 可变参数，但提供的却是 4 参数
+  BoardGame.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Random codes in c\BoardGame\x64\Debug\BoardGame.exe
