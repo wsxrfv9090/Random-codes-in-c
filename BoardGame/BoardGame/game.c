@@ -8,6 +8,7 @@ void boardInit(char board[ROW][COL],int row,int col)
 			board[i][j] = ' ';
 	}
 }
+
 void boardDisplay(char board[ROW][COL],int row,int col)
 {
 	for (int i = 0; i < row; i++)
@@ -69,6 +70,7 @@ void computerMove(char board[ROW][COL], int row, int col)
 		}
 	}
 }
+
 int gameDef(char board[ROW][COL], int row, int col)
 {
 	//Player Win = 0;
@@ -79,65 +81,70 @@ int gameDef(char board[ROW][COL], int row, int col)
 	{
 		for (int j = 0; j < col; j++)
 		{
-			if (board[i][j] == board[i][j + 1] && board[i][j + 1] == board[i][j + 2] && board[i][j + 2] == board[i][j + 3] && board[i][j + 3] == board[i][j + 4] && board[i][j] != ' ')
+			if (board[i][j] != ' ')
 			{
-				if (board[i][j] == '@')
+				if (board[i][j] == board[i][j + 1])
 				{
-					return 0;
+					if (board[i][j + 1] == board[i][j + 2])
+						if (board[i][j + 2] == board[i][j + 3])
+							if (board[i][j + 3] == board[i][j + 4])
+							{
+								if (board[i][j] == '@')
+									return 0;
+								else if (board[i][j] == '#')
+									return 1;
+							}
 				}
-				else if (board[i][j] == '#')
+				else if (board[i][j] == board[i + 1][j])
 				{
-					return 1;
+					if (board[i + 1][j] == board[i + 2][j])
+						if (board[i + 2][j] == board[i + 3][j])
+							if (board[i + 3][j] == board[i + 4][j])
+							{
+								if (board[i][j] == '@')
+									return 0;
+								else if (board[i][j] == '#')
+									return 1;
+							}
 				}
-			}
-			else if (board[i][j] == board[i + 1][j] && board[i + 1][j] == board[i + 2][j] && board[i + 2][j] == board[i + 3][j] && board[i + 3][j] == board[i + 4][j] && board[i][j] != ' ')
-			{
-				if (board[i][j] == '@')
+				else if (board[i][j] == board[i + 1][j + 1])
 				{
-					return 0;
+					if (board[i + 1][j + 1] == board[i + 2][j + 2])
+						if (board[i + 2][j + 2] == board[i + 3][j + 3])
+							if (board[i + 3][j + 3] == board[i + 4][j + 4])
+							{
+								if (board[i][j] == '@')
+									return 0;
+								else if (board[i][j] == '#')
+									return 1;
+							}
 				}
-				else if (board[i][j] == '#')
+				else if (board[i][j] == board[i + 1][j - 1])
 				{
-					return 1;
-				}
-			}
-			else if (board[i][j] == board[i + 1][j + 1] && board[i + 1][j + 1] == board[i + 2][j + 2] && board[i + 2][j + 2] == board[i + 3][j + 3] && board[i + 3][j + 3] == board[i + 4][j + 4] && board[i][j] != ' ')
-			{
-				if (board[i][j] == '@')
-				{
-					return 0;
-				}
-				else if (board[i][j] == '#')
-				{
-					return 1;
-				}
-			}
-			else if (board[i][j] == board[i + 1][j - 1] && board[i + 1][j - 1] == board[i + 2][j - 2] && board[i + 2][j - 2] == board[i - 3][j + 3] && board[i + 3][j - 3] == board[i + 4][j - 4] && board[i][j] != ' ')
-			{
-				if (board[i][j] == '@')
-				{
-					return 0;
-				}
-				else if (board[i][j] == '#')
-				{
-					return 1;
-				}
-			}
-			else
-			{
-				for (int m = 0; m < row; m++)
-				{
-					for (int n = 0; n < col; n++)
-					{
-						if (board[m][n] == ' ')
-							return 2;
-					}
+					if (board[i + 1][j - 1] == board[i + 2][j - 2])
+						if (board[i + 2][j - 2] == board[i + 3][j - 3])
+							if (board[i + 3][j - 3] == board[i + 4][j - 4])
+							{
+								if (board[i][j] == '@')
+									return 0;
+								else if (board[i][j] == '#')
+									return 1;
+							}
 				}
 			}
 		}
 	}
+	for (int i = 0; i < row; i++)
+	{
+		for (int j = 0; j < col; j++)
+		{
+			if (board[i][j] == ' ')
+				return 2;
+		}
+	}
 	return 3;
 }
+
 void game()
 {
 	char board[ROW][COL];
