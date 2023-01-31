@@ -1,0 +1,6 @@
+﻿  main.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Culculater\Culculater\main.c(13,23): warning C4474: scanf_s: 格式字符串中传递的参数太多
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Culculater\Culculater\main.c(13,23): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Culculater\Culculater\main.c(24,27): warning C4474: scanf_s: 格式字符串中传递的参数太多
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Culculater\Culculater\main.c(24,27): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+  Culculater.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Culculater\x64\Debug\Culculater.exe
