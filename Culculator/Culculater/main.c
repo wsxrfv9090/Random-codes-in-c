@@ -18,9 +18,17 @@ main()
 		{
 			scanf_s("%d", &ans, 4);
 			if (ans < 1)
+			{
 				printf("input incorrect\n");
+				char tmp;
+				while ((tmp = getchar()) != '\n') {}
+			}
 			else if (ans > 4)
+			{
 				printf("input incorrect\n");
+				char tmp;
+				while ((tmp = getchar()) != '\n') {}
+			}
 			else
 				break;
 		}
@@ -44,6 +52,8 @@ main()
 			break;
 		default:
 			printf("Input incorrect");
+			char tmp;
+			while ((tmp = getchar()) != '\n') {}
 		}
 	}
 	
