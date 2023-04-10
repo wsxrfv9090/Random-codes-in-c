@@ -1,0 +1,73 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6282",
+          "message": {
+            "text": "运算符不正确。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ImportanFiles/Coding Related/Repositories/Random codes in c/Ultimate Culculator/Ultimate Culculator/main.c"
+                },
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 6,
+                  "endLine": 10,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31937.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/ImportanFiles/Coding Related/Repositories/Random codes in c/Ultimate Culculator/Ultimate Culculator/main.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "622dc8942a7a8bc3408bfc81b7d49eb2db05a24dfc7429fd9546adc56948b04f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/importanfiles/coding related/repositories/random codes in c/ultimate culculator/ultimate culculator/display.h"
+          },
+          "hashes": {
+            "sha-256": "2737fe828c4194e8669137cd9616d9ad4be6290081922742f8c253cda782f1da"
+          }
+        }
+      ]
+    }
+  ]
+}

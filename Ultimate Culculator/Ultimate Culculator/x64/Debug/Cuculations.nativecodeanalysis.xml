@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Ultimate Culculator\Ultimate Culculator\</FILEPATH>
+      <FILENAME>Cuculations.c</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6067</DEFECTCODE>
+    <DESCRIPTION>_Param_(2) 在对“printf”调用中必须是字符串地址。实际类型: “char”。</DESCRIPTION>
+    <FUNCTION>DoubleFloat</FUNCTION>
+    <DECORATED>DoubleFloat</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

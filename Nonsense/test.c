@@ -1,16 +1,14 @@
 #include <stdio.h>
+#include <string.h>
 
 int main()
 {
-	int arr[3][3] = { 0 };
-	arr[2] == 1;
-	for (int i = 0; i < 3; i++)
-	{
-		for (int j = 0; j < 3; j++)
-		{
-			printf("%d ", arr[i][j]);
-		}
-		printf("\n");
-	}
+	char arr[400] = { "qq" };
+	int le = strlen(arr);
+	arr[400] = arr[le];
+	int sz = sizeof(arr) / sizeof(arr[0]);
+	printf("%d", sz);
+	printf("%s", arr);
+	printf("%d", le);
 	return 0;
 }

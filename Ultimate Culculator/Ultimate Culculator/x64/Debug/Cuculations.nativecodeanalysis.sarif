@@ -1,0 +1,65 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6067",
+          "message": {
+            "text": "_Param_(2) 在对“printf”调用中必须是字符串地址。实际类型: “char”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/ImportanFiles/Coding Related/Repositories/Random codes in c/Ultimate Culculator/Ultimate Culculator/Cuculations.c"
+                },
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 2,
+                  "endLine": 11,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DoubleFloat",
+                  "decoratedName": "DoubleFloat",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31937.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/ImportanFiles/Coding Related/Repositories/Random codes in c/Ultimate Culculator/Ultimate Culculator/Cuculations.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d3ee0f38ea8cd6e3a8b1e819db577fe76a307372251ceeac9a986b9d4f869c9f"
+          }
+        }
+      ]
+    }
+  ]
+}
