@@ -1,6 +1,6 @@
 ﻿  Reset IE Settings.c
-  Previous IPDB not found, fall back to full compilation.
   正在生成代码
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
   All 4 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   已完成代码的生成
   Reset IE Settings.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Reset IE Settings\x64\Release\Reset IE Settings.exe

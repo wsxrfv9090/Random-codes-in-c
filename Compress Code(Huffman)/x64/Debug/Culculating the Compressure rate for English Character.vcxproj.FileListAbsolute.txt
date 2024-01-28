@@ -1,0 +1,2 @@
+D:\ImportanFiles\Coding Related\Repositories\LeetCode Quizes\Culculating the Compressure rate for English Character\x64\Debug\Culculating the Compressure rate for English Character.exe
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\x64\Debug\Huffman Coding.exe

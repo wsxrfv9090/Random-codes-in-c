@@ -1,0 +1,6 @@
+﻿D:\Visual Studio\IDE\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(Culculating the Compressure rate for English Character.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  OtherFunctions.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\OtherFunctions.c(176,9): warning C4033: “process”必须返回值
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\OtherFunctions.c(223,30): warning C4305: “=”: 从“int”到“char”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\OtherFunctions.c(183): warning C4715: “process”: 不是所有的控件路径都返回值
+  Culculating the Compressure rate for English Character.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\x64\Debug\Huffman Coding.exe
