@@ -1,6 +1,17 @@
-﻿  game.c
+﻿  display.c
+  game.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\BoardGame\BoardGame\display.c(21,22): warning C4474: scanf_s: 格式字符串中传递的参数太多
+  D:\ImportanFiles\Coding Related\Repositories\Random codes in c\BoardGame\BoardGame\display.c(21,22):
+  占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+  
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\BoardGame\BoardGame\display.c(43,22): warning C4474: scanf_s: 格式字符串中传递的参数太多
+  D:\ImportanFiles\Coding Related\Repositories\Random codes in c\BoardGame\BoardGame\display.c(43,22):
+  占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+  
 D:\ImportanFiles\Coding Related\Repositories\Random codes in c\BoardGame\BoardGame\game.c(42,28): warning C4474: scanf_s: 格式字符串中传递的参数太多
-D:\ImportanFiles\Coding Related\Repositories\Random codes in c\BoardGame\BoardGame\game.c(42,28): message : 占位符和其参数预计 2 可变参数，但提供的却是 4 参数
+  D:\ImportanFiles\Coding Related\Repositories\Random codes in c\BoardGame\BoardGame\game.c(42,28):
+  占位符和其参数预计 2 可变参数，但提供的却是 4 参数
+  
   main.c
 D:\ImportanFiles\Coding Related\Repositories\Random codes in c\BoardGame\BoardGame\main.c(15,4): warning C4013: “game”未定义；假设外部返回 int
   正在生成代码
