@@ -9,5 +9,6 @@ int main() {
     else {
         printf("Failed to reset Internet Explorer settings.\n");
     }
+    Sleep(1000);
     return result;
 }

@@ -1,6 +1,33 @@
 ﻿D:\Visual Studio\IDE\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(Culculating the Compressure rate for English Character.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
   OtherFunctions.c
+  main.c
 D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\OtherFunctions.c(176,9): warning C4033: “process”必须返回值
 D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\OtherFunctions.c(223,30): warning C4305: “=”: 从“int”到“char”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(7,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(8,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(9,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(10,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(12,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(13,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(14,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(15,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(16,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(17,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(18,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(19,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(20,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(21,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(22,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(23,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(24,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(25,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(26,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(27,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(28,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(29,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(30,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(31,19): warning C4305: “初始化”: 从“double”到“float”截断
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\main.c(32,19): warning C4305: “初始化”: 从“double”到“float”截断
+  正在生成代码...
 D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\OtherFunctions.c(183): warning C4715: “process”: 不是所有的控件路径都返回值
   Culculating the Compressure rate for English Character.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Compress Code(Huffman)\x64\Debug\Huffman Coding.exe

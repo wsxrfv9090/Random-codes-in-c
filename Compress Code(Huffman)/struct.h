@@ -2,7 +2,7 @@
 #ifndef HUFFMAN_H
 #define HUFFMAN_H
 
-typedef struct OriginalData {
+typedef struct{
     char character;
     float frequency;
 } OriginalData;

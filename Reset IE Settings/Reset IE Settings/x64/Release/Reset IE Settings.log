@@ -1,4 +1,5 @@
 ﻿  Reset IE Settings.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Reset IE Settings\Reset IE Settings\Reset IE Settings.c(12,5): warning C4013: “Sleep”未定义；假设外部返回 int
   正在生成代码
   Previous IPDB was built with incompatible compiler, fall back to full compilation.
   All 4 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.

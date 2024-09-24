@@ -1,1 +1,16 @@
-﻿  Notation Transformer.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Notation Transformer\x64\Debug\Notation Transformer.exe
+﻿  BinaryCulculations.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Notation Transformer\Notation Transformer\BinaryCulculations.c(7,2): warning C4013: “printf”未定义；假设外部返回 int
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Notation Transformer\Notation Transformer\BinaryCulculations.c(8,2): warning C4013: “scanf_s”未定义；假设外部返回 int
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Notation Transformer\Notation Transformer\BinaryCulculations.c(16,18): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Notation Transformer\Notation Transformer\BinaryCulculations.c(35,16): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  Display.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Notation Transformer\Notation Transformer\Display.c(20,34): warning C4474: scanf_s: 格式字符串中传递的参数太多
+  D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Notation Transformer\Notation Transformer\Display.c(20,34):
+  占位符和其参数预计 2 可变参数，但提供的却是 4 参数
+  
+  Source.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Notation Transformer\Notation Transformer\Source.c(17,3): warning C4013: “printf”未定义；假设外部返回 int
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Notation Transformer\Notation Transformer\Source.c(36,3): warning C4013: “scanf_s”未定义；假设外部返回 int
+  正在生成代码...
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Notation Transformer\Notation Transformer\Display.c(96): warning C4715: “Menu”: 不是所有的控件路径都返回值
+  Notation Transformer.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Notation Transformer\x64\Debug\Notation Transformer.exe
