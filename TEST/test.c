@@ -12,6 +12,10 @@
 //}
 
 int main() {
-    printf("%d", RAND_MAX);
+    char str[256];
+    char input[256];
+    fgets(input, sizeof(input), stdin);
+    snprintf(str, sizeof(str), "I like %s", input);
+    printf("%s", str);
     return 0;
 }
