@@ -127,8 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="chatgpto1.c" />
+    <ClCompile Include="display.c" />
+    <ClCompile Include="git command.c" />
+    <ClCompile Include="included lib &amp; define.h" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="utilities.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="display.h" />
+    <ClInclude Include="git command.h" />
+    <ClInclude Include="utilities.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

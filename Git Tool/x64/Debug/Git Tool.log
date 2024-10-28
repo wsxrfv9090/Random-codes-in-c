@@ -1,2 +1,4 @@
-﻿  main.c
+﻿  utilities.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Git Tool\utilities.c(25,43): warning C4020: 'perror': too many actual parameters
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Git Tool\utilities.c(110,43): warning C4020: 'perror': too many actual parameters
   Git Tool.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Git Tool\x64\Debug\Git Tool.exe

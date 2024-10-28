@@ -15,11 +15,31 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="chatgpto1.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="main.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="display.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="git command.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="included lib &amp; define.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utilities.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="display.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="git command.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

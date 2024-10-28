@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <windows.h>
+#include <string.h>
+
+#define BUFFERSIZE 256
 
 //int generateRandomInt() {
 //    int rand1 = rand();
@@ -11,11 +15,16 @@
 //    return randomInt;
 //}
 
+int cmdouput_to_txt(char *cmd, char *path) {
+    char augcmd[BUFFERSIZE];
+    snprintf(augcmd, sizeof(augcmd), "%s > %s", cmd, path);
+    printf("%s",augcmd);
+    return 1;
+}
+
 int main() {
-    char str[256];
-    char input[256];
-    fgets(input, sizeof(input), stdin);
-    snprintf(str, sizeof(str), "I like %s", input);
-    printf("%s", str);
+    char cmd[] = "ping";
+    char path[] = "cool\\nice";
+    cmdouput_to_txt(cmd, path);
     return 0;
 }
