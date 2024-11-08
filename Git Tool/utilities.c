@@ -19,7 +19,7 @@ int ping_github()
 
 	FILE* file = fopen(Ping_Result_File, "r");
 	if (!check_if_fopen_successful(file)) {
-		perror("****Error openning file at %s", Ping_Result_File);
+		printf("****Error openning file at %s", Ping_Result_File);
 		return -1;
 	}
 	char buffer[BUFFER_SIZE];
@@ -104,7 +104,7 @@ int add_repository_path_to_file() {
 
 	FILE* file = fopen(MANAGING_REPO_TXT, "a");
 	if (!check_if_fopen_successful(file)) {
-		perror("****Error openning file at %s", MANAGING_REPO_TXT);
+		printf("****Error openning file at %s", MANAGING_REPO_TXT);
 		return -1;
 	}
 
@@ -143,6 +143,8 @@ void cmdoutput_to_path(char* cmd, char* path) {
 	snprintf(augcmd, sizeof(augcmd), "%s > \"%s\"", cmd, path);
 	system(augcmd);
 }
+
+
 
 //get message from output and store in file
 //check file and grab using delimeter 

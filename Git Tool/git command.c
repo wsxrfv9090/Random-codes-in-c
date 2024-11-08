@@ -1,9 +1,14 @@
 #include "included lib & define.h"
 
 int git_status() {
+	const char* not_a_git_repo = "not a git repository";
+	const char* untracked = "Untracked files";
+	const char* uncommitted1 = "Changes to be committed";
+	const char* uncommitted2 = "ahead of";
+
 	FILE* repofile = fopen(MANAGING_REPO_TXT, "r");
 	if (!check_if_fopen_successful(repofile)) {
-		perror("****Error openning file at %s", MANAGING_REPO_TXT);
+		printf("****Error openning file at %s", MANAGING_REPO_TXT);
 		return -1;
 	}
 	char repo[BUFFER_SIZE];
@@ -15,7 +20,7 @@ int git_status() {
 		char* string_ptr = NULL;
 		disk_letter = strtok_s(repocp, ":", &string_ptr);
 		if (disk_letter == NULL) {
-			printf("Disk letter not found in the path: %s\n", repo);
+			printf("****Disk letter not found in the path: %s\n", repo);
 			break;
 		}
 		char cmd_buffer[BUFFER_SIZE];
@@ -23,7 +28,21 @@ int git_status() {
 		system("cls");
 		printf("\nCurrent Directory: %s\n", repo);
 		snprintf(cmd_buffer, sizeof(cmd_buffer), "%s: && cd %s && git status", disk_letter, repo);
-		system(cmd_buffer);
+		cmdoutput_to_path(cmd_buffer, GIT_STATUS_OUTPUT_TXT);
+		FILE* resultfile = fopen(GIT_STATUS_OUTPUT_TXT, "r");
+		if (!check_if_fopen_successful(resultfile)) {
+			printf("****Error openning file at %s", GIT_STATUS_OUTPUT_TXT);
+			return -1;
+		}
+		char test_buffer[BUFFER_SIZE];
+		while (fgets(test_buffer,sizeof(test_buffer),resultfile) != NULL) {
+			if (strstr(test_buffer, not_a_git_repo)) {
+
+			}
+		}
+		fclose(resultfile);
+		if (remove(GIT_STATUS_OUTPUT_TXT) != 0)
+			printf("****Unable to remove tmp ping result file from %s\n", GIT_STATUS_OUTPUT_TXT);
 		//output to a temp file
 		//fopen the temp file for information
 		//options:

@@ -4,7 +4,7 @@ void show_managing_repos() {
 	printf("\n\nHere are the currently managing repos' paths:\n");
 	FILE* file = fopen(MANAGING_REPO_TXT, "r");
 	if (!check_if_fopen_successful(file)) {
-		perror("****Error openning file.");
+		printf("****Error openning file at %s.", MANAGING_REPO_TXT);
 		return -1;
 	}
 	char buffer[BUFFER_SIZE];

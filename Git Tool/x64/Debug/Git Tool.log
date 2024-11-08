@@ -1,4 +1,7 @@
-﻿  git command.c
-D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Git Tool\git command.c(6,43): warning C4020: 'perror': too many actual parameters
+﻿  display.c
+D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Git Tool\display.c(8,12): warning C4098: 'show_managing_repos': 'void' function returning a value
+  git command.c
 D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Git Tool\git command.c(22,8): warning C4101: 'output_temp_status': unreferenced local variable
+  utilities.c
+  Generating Code...
   Git Tool.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Random codes in c\Git Tool\x64\Debug\Git Tool.exe
