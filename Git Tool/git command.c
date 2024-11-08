@@ -34,11 +34,15 @@ int git_status() {
 		// 5. not a git repo
 		//fclose
 		printf("\n");
-		printf("Press enter to check the next repository.");
 		char input1[BUFFER_SIZE];
-		fgets(input1, sizeof(input1), stdin);
-		if (strcmp(input1, "\n") == 0)
-			system("cls");
+		while (1) {
+			printf("Press enter to check the next repository.\n");
+			fgets(input1, sizeof(input1), stdin);
+			if (strcmp(input1, "\n") == 0) {
+				system("cls");
+				break;
+			}
+		}
 	}
 // Add changes to the managing repo file.
 // loop and iterate through the file and printf, then remove temp file here.
