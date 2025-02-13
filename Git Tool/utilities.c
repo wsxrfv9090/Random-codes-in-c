@@ -135,18 +135,83 @@ int add_repository_path_to_file() {
 	}
 	fclose(file);
 	system("cls");
-	return 0;
+	return 1;
 }
 
 void cmdoutput_to_path(char* cmd, char* path) {
 	char augcmd[BUFFER_SIZE];
-	snprintf(augcmd, sizeof(augcmd), "%s > \"%s\"", cmd, path);
+	snprintf(augcmd, sizeof(augcmd), "%s > \"%s\" 2>&1", cmd, path);
 	system(augcmd);
 }
 
+int current_managing_repo_number() {
+	FILE* repotext = fopen(MANAGING_REPO_TXT, "r");
+	if (repotext == NULL) {
+		printf("****Open %s failed in culculate_current_managing_repo_numer.\n", MANAGING_REPO_TXT);
+		return -1;
+	}
+	char cd[BUFFER_SIZE];
+	int num = 0;
+	while (fgets(cd, BUFFER_SIZE, repotext) != NULL) {
+		num++;
+	}
+	printf("Current managing repo number is %d", num);
+	return num;
+}
 
+int validate_input_by_strtok_and_space(const char* input, int repo_total_count, int* chosen_repo_index) {
+	if (input == NULL || *input == '\0') {
+		printf("****There's some problem with the validate_input_by_strtok_and_space function, this happened because the passed in input is Pointing to NULL, or the first character is \\0");
+		return -1;
+	}
+	char inputcp[BUFFER_SIZE];
+	//copy the string for later strtok
+	strcpy_s(inputcp, BUFFER_SIZE, input);
+	//strtok_s preparation
+	char* token = NULL;
+	char* ptr = NULL;
+	token = strtok_s(inputcp, " ", &ptr);
+	if (token == NULL)
+	{
+		printf("****No valid token when performing strtok_s in function validate_input_by_strok_and_space.\n");
+		return -1;
+	}
+	int index = 0;
+	while (token != NULL) {
+		char* endptr;
+		long repo_num = strtol(token, &endptr, 10);
+		if (*endptr != '\0') {
+			printf("****One of the token isn't a pure interger.\n");
+			return -1;
+		}
+		if (repo_num < 1 || repo_num > repo_total_count) {
+			printf("****One of the token isn't in valid range.\n");
+			return -1;
+		}
+		if (index >= BUFFER_SIZE) {
+			printf("****Number of tokens exceeded the maximum buffer size.\n");
+			return -1;
+		}
+		chosen_repo_index[index] = (int)repo_num;
+		index++;
+		token = strtok_s(NULL, " ", &ptr);
+	}
+	//Now all token are valid.
+	return 0;
+}
 
-//get message from output and store in file
-//check file and grab using delimeter 
+//void switch_to_directory(char* directory) {
+//	char dir_cp[BUFFER_SIZE];
+//	strcpy_s(dir_cp, BUFFER_SIZE, directory);
 //
-//
+//	char* disk_letter = NULL;
+//	char* string_ptr = NULL;
+//	//Divide the string to find the disk letter in case the program isn't running under the same disk and need to change disk letter in the console
+//	disk_letter = strtok_s(dir_cp, ":", &string_ptr);
+//	if (disk_letter == NULL) {
+//		printf("****Disk letter not found in the path: %s in function \"switch_to_directory\"function.\n", directory);
+//	}
+//	char cmd_buffer[BUFFER_SIZE];
+//	//Form a cmd that first changes disk letter and change directory to the repo's and run git status command
+//	snprintf(cmd_buffer, sizeof(cmd_buffer), "%s: && cd %s", disk_letter, directory);
+//}
